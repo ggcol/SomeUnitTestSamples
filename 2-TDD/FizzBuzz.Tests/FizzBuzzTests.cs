@@ -8,8 +8,9 @@ public class FizzBuzzTests
     [SetUp]
     public void Setup()
     {
+        _solution = new ASolution();
         // _solution = new Solution(new MyMath());
-        _solution = new MessySolution();
+        // _solution = new MessySolution();
     }
 
     [TestCase(3, new []{"1", "2", "Fizz"})]
