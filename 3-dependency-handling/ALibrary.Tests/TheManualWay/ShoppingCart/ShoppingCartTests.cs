@@ -5,7 +5,7 @@ public class ShoppingCartTests
 {
     [TestCase("productId", 2, 5.5, 11)]
     [TestCase("productId", 4, 2.5, 10)]
-    public void GetTotal_GivenAProductWithQuantity2_ReturnsTotalEqualToProductPricePerQuantity(
+    public void GetTotal_GivenAProductWithQuantity_ReturnsTotalEqualToProductPricePerQuantity(
             string productId, int quantity, decimal productPrice,
             decimal expected)
     {

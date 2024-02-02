@@ -3,7 +3,8 @@
 /*
  * this code is gently taken from THAT *well known* repo...
  *
- * the original class was static and provided the method as static,
+ * I didn't change anything except for the fact that
+ * the original class was static and exposed the method as static,
  * changed here in order to refactor in another class implementing the
  * same interface
  */
