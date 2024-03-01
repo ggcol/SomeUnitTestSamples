@@ -3,7 +3,7 @@ namespace ALibrary.Tests.TheManualWay.MyLoggedMath;
 public class MyLoggedMathTests
 {
     private IDoMath? _math;
-
+    
     [SetUp]
     public void Setup()
     {
